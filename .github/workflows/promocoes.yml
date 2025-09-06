@@ -25,7 +25,7 @@ jobs:
 
       # Executa o script de promoções
       - name: Executar script
-        run: python3 promocoes-scraper.py
+        run: ython3 mega2/promocoes-scraper.py
 
       # Comita o arquivo gerado (public/promocoes.js) se tiver mudanças
       - name: Fazer commit das promoções
